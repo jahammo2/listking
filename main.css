@@ -1,0 +1,137 @@
+/*************************************************************
+*****BODY, RESET, AND GENERAL CSS*********
+*************************************************************/
+
+body {
+	background: #111;
+	background-size: 780px;
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	display: block;
+	min-height:100%;
+
+}
+
+h1, h2, p {
+	text-align: center;
+}
+
+h1 {
+	margin: -1% 0 0 0;
+	font-size: .8rem;
+	letter-spacing: 1.2px;
+}
+
+h2 {
+	min-width: 70%;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin: 5% 0 4% 0%;
+	font-size: 1.4rem;
+}
+
+img {
+	max-width: 50px;
+	padding: 10% 45% 0 44%;
+}
+
+#page, #newItemButton {
+	margin: auto;
+	background: #222;
+	width: 360px;
+}
+
+#page {
+	min-height: 100%;
+	overflow: auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 5%;
+}
+
+li:nth-child(-n+3) {
+	background-color: #B80000;
+}
+
+li:nth-child(n+4) {
+	background-color: coral;
+}
+
+li {
+	margin: .3% -5.2% .3% -5.2%;
+	padding: 12px 0 1px 16px;
+	height: 35px;
+	font-size: 1.1rem;
+}
+
+#paragraph, #test {
+	color: #111;
+	background: #FFF;
+	border-radius: 1.5% / 10%;
+	font-size: .85rem;
+	margin: 0% 10%;
+}
+
+footer {
+	text-align: center;
+}
+
+#slideAd{
+	position: absolute;
+	margin: 0 0 0 16px;
+	border-color: #B80000;
+	border-width: 1px;
+	background: #222;	
+	padding: 5px;
+	cursor: pointer;
+}
+
+/*************************************************************
+***** NEW BUTTON *********
+*************************************************************/
+
+#newItemForm {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: center;
+	-webkit-flex-wrap: wrap;
+	background: #222;
+	z-index: 10; position:relative
+}
+
+#itemDescription {
+	margin: 3.8px 10px 0 0;
+	width: 68%;
+	border: none;
+	border-radius: 2.5% / 18%;
+	font-size: 1rem;
+	text-align: left;
+	text-indent: 10px;
+}
+
+#addButton, #showForm {
+	background: #B80000;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+	letter-spacing: .9px;
+	text-align: center;
+}
+
+#addButton {
+	border-radius: 8% / 20%;
+	padding: 10px 22px;
+	margin: 3px 0px 0 0;
+}
+
+#showForm {
+	border-radius: 3% / 11%;
+	padding: 10px 22px;
+	margin: 3px 17px 0 0;
+	float: right;
+}
